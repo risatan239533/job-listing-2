@@ -10,9 +10,9 @@
     </td>
     <td>
       <%= link_to("Edit", edit_job_path(job)) %>
-      <%= link_to("Description", job_path(job), :method => :delete, :datea => { :confirm => "Are you sure?" }) %>
+      <%= link_to("Destyoy", job_path(job), :method => :delete, :datea => { :confirm => "Are you sure?" }) %>
     </td>
-  
+
     <td>
       <%= job.created_at %>
     </td>
