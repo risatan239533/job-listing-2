@@ -62,6 +62,22 @@
      background-color: #FFE0B2;
      color: #212121;
  }
+ // 搜索框
+  .input-group {
+      position: relative;
+      display: table;
+      border-collapse: separate;
+      width: 250px; //加上width
+  }
+
+  .form-group {
+      margin-bottom: 10px;
+      margin-top: 10px;
+      margin-right: 100px;
+   }
+
+
+
  //---------Box---------
 
  .box {
